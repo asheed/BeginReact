@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello React</title>
+</head>
+<body>
+    <div id="app">
+        <!-- 앱이 렌더링 되는 위치 -->
+    </div>
+    <!--<script crossorigin src="https://unpkg.com/react@15/dist/react.js"></script>-->
+    <!--<script crossorigin src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>-->
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.js"></script>
+    <script>
+        // 앱코드
+//        ReactDOM.render(
+//                React.DOM.h1(null, "안녕 리액트 프로그래밍!"),
+//                document.getElementById("app")
+//        );
+        React.DOM.h1(
+                {
+                    id: "my-heading",
+                },
+                "하이룽!"
+        ),
+    </script>
+</body>
+</html>

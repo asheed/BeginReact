@@ -15,15 +15,48 @@
     <script>
         // 앱코드
 //        ReactDOM.render(
+//                React.DOM.h1(
+//                        {
+//                            id: "my-heading"
+//                        },
+//                        "하이룽!"
+//                ), document.getElementById("app")
+//        );
+//        ReactDOM.render(
 //                React.DOM.h1(null, "안녕 리액트 프로그래밍!"),
 //                document.getElementById("app")
 //        );
-        React.DOM.h1(
-                {
-                    id: "my-heading",
-                },
-                "하이룽!"
-        ),
+//        ReactDOM.render(
+//                React.DOM.h1(
+//                        {id: "my-heading"},
+//                        React.DOM.span(null, "Hello"),
+//                        " World!"
+//                ), document.getElementById("app")
+//        );
+//        ReactDOM.render(
+//                React.DOM.h1(
+//                        {id: "my-heading"},
+//                        React.DOM.span(null,
+//                                React.DOM.em(null, "Hell"),
+//                                "o"
+//                        ),
+//                        " world!"
+//                ), document.getElementById("app")
+//        );
+        ReactDOM.render(
+                React.DOM.h1(
+                        {
+                            className: "pretty",
+                            htmlFor: "me",
+                            style: {
+                                background: "black",
+                                color: "white",
+                                fontFamily: "Verdana"
+                            }
+                        },
+                        "Hello World!"
+                ), document.getElementById("app")
+        );
     </script>
 </body>
 </html>
